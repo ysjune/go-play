@@ -37,10 +37,10 @@ func PrintEverySecond(ctx context.Context) {
 	}
 }
 
-func square(ctx context.Context) {
-	if v := ctx.Value("number"); v != nil {
-		n := v.(int)
-		fmt.Printf("square:%d", n*n)
-	}
-	wg.Done()
-}
+//func square(ctx context.Context) {
+//	if v := ctx.Value("number"); v != nil {
+//		n := v.(int)
+//		fmt.Printf("square:%d", n*n)
+//	}
+//	wg.Done()
+//}
